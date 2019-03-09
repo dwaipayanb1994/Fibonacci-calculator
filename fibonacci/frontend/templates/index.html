@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static "fibo/style.css" %}">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+
+  <script src="{% static "fibo/calculate.js" %}">
+  </script>
+
+  <title>Fibonacci calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron vertical-center blurred-box shadow-all text-center">
+      <h3 class="align-items-center"><u>Fibonacci Number Calculator</u></h3>
+      <br>
+      <div class="container-fluid">
+        <form id="fiboform">
+          <label for="number">Enter N to get the Nth Fibonacci number</label>
+          <input id="number" type="number" name="number" max="10000" min="1">
+          <input id="calculate" class="btn btn-info" type="submit" name="" value="Calculate">
+        </form>
+        <h3 id="url" hidden>{{ request.build_absolute_uri }}</h3>
+      </div>
+      <div class="container">
+        <div class="container">
+          <br><br>
+          <p id="fibo_output"></p>
+          <p id="time_req"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

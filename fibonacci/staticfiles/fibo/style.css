@@ -1,0 +1,35 @@
+body{
+  background-image: url('/static/fibo/background.jpg');
+}
+
+/* Mid of page vertically */
+.vertical-center {
+  margin: 5%;
+  align-items: center;
+}
+
+/* Calculate button */
+#calculate{
+  margin: 5px;
+  z-index: 3;
+}
+
+h3{
+  color: #353d30;
+}
+
+/* Output style */
+p{
+  /* max-width: 100%; */
+  overflow-wrap: break-word;
+}
+
+/* Glyphicon shadow */
+.shadow-all{
+  box-shadow: 6px 7px 5px #00000075;
+}
+
+/* Time display colour */
+#time_req{
+  color: #93082b;
+}
