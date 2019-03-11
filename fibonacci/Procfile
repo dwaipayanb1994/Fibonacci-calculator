@@ -1,1 +1,1 @@
-web: gunicorn fibonacci.wsgi —-log-file -
+web: gunicorn fibonacci.wsgi runserver 0.0.0.0:$5000
