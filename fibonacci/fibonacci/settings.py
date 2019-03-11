@@ -29,7 +29,7 @@ SECRET_KEY = '^a=0(se31yg)c)qj%y-ib4)0qhqt0$_3jv%_43ka*0%+m(rezq'
 DEBUG = False
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'quiet-anchorage-63372.herokuapp.com']
 
 # Application definition
 
