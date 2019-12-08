@@ -18,6 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('getfibo/', include("fibo.urls")),
     path('', include("frontend.urls")),
 ]

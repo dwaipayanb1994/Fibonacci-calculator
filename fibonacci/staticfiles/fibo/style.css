@@ -1,5 +1,5 @@
 body{
-  background-image: url('/static/fibo/background.jpg');
+  background-color: #00ae4e;
 }
 
 /* Mid of page vertically */
@@ -36,4 +36,26 @@ p{
 
 h1{
   color: #333300;
+}
+
+.boxy{
+  padding: 2%;
+  background-color: white;
+  border-radius: 1%;
+}
+
+.heady{
+  font-size: 150%;
+}
+
+.pay{
+}
+
+.cb{
+  font-size: 100%;
+  text-align: right;
+}
+
+input{
+  padding: 5px;
 }
